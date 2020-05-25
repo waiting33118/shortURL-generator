@@ -6,6 +6,10 @@ const urlSchema = new Schema({
     type: String,
     required: true
   },
+  shortUrlLink: {
+    type: String,
+    required: true
+  },
   sUrl: {
     type: String,
     required: true
