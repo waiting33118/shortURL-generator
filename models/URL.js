@@ -12,7 +12,8 @@ const urlSchema = new Schema({
   },
   sUrl: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   }
 })
 
